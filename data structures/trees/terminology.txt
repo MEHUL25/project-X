@@ -4,3 +4,7 @@ Root: The node at the top, which is an ancestor for all other nodes is called th
 Leaves: The nodes with no children, i.e., the nodes in the last layer are called leaf nodes.
 Depth of a node: Length of the path from root to node.
 Height of a node: Length of the longest path from the node to a leaf.
+
+Space Complexity: for traversals
+Recursive: O(h) (due to function call stack, h = tree height)
+Iterative (BFS): O(w) (queue can grow to hold the maximum width of the tree)

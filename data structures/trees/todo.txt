@@ -30,6 +30,8 @@ Validate if a Binary Tree is a BST
 
 Right / Left View of a Binary Tree
 
+top view of a binary tree
+
 Zigzag Level Order Traversal
 
 Convert Sorted Array to Balanced BST
