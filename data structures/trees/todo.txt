@@ -38,15 +38,15 @@ Convert Sorted Array to Balanced BST
 
 Print All Root-to-Leaf Paths
 
-Sum of All Nodes at a Given Level
-
 Find Path with Given Sum
 
 Find Distance Between Two Nodes
 
 Boundary Traversal of Binary Tree
 
-Flatten Binary Tree to Linked List (Leetcode #114)
+Flatten Binary Tree to Linked List
+
+Convert Binary Tree to Doubly Linked List
 
 🌳 Advanced Level – Optimization / Trickier Logic
 These questions assess deep understanding and optimization:
@@ -61,11 +61,7 @@ Vertical Order Traversal
 
 Maximum Path Sum in Binary Tree (Leetcode #124)
 
-Binary Tree Right Side View
-
 Find All Nodes Distance K from a Target
-
-Convert Binary Tree to Doubly Linked List
 
 Trie Implementation (Prefix Tree)
 
