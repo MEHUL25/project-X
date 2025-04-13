@@ -1,0 +1,68 @@
+🌱 Basic Level – Must Know
+These test understanding of the tree structure itself:
+
+Inorder / Preorder / Postorder Traversal (recursive and iterative)
+
+Level Order Traversal (BFS)
+
+Find Height / Depth of Tree
+
+Check if a Binary Tree is Balanced
+
+Find the Diameter of a Binary Tree
+
+Count the Number of Nodes / Leaves
+
+Search a Value in Binary Search Tree (BST)
+
+Insert/Delete in BST
+
+Mirror a Binary Tree
+
+Lowest Common Ancestor (LCA) in Binary Tree
+
+Root to node Path
+
+🌿 Medium Level – Problem Solving
+These often come up in FAANG or product-based company rounds:
+
+Validate if a Binary Tree is a BST
+
+Right / Left View of a Binary Tree
+
+top view of a binary tree
+
+Zigzag Level Order Traversal
+
+Convert Sorted Array to Balanced BST
+
+Print All Root-to-Leaf Paths
+
+Find Path with Given Sum
+
+Find Distance Between Two Nodes
+
+Boundary Traversal of Binary Tree
+
+Flatten Binary Tree to Linked List
+
+Convert Binary Tree to Doubly Linked List
+
+🌳 Advanced Level – Optimization / Trickier Logic
+These questions assess deep understanding and optimization:
+
+Serialize and Deserialize Binary Tree
+
+Construct Tree from Inorder and Preorder/Postorder
+
+Kth Smallest / Largest in BST
+
+Vertical Order Traversal
+
+Maximum Path Sum in Binary Tree (Leetcode #124)
+
+Find All Nodes Distance K from a Target
+
+Trie Implementation (Prefix Tree)
+
+Segment Tree / Fenwick Tree (if asked in CP-heavy roles)

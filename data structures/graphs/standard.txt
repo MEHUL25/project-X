@@ -1,0 +1,85 @@
+✅ Fundamentals
+Graph Representation
+
+Implement a graph using adjacency list.
+
+Implement a graph using adjacency matrix.
+
+Traversal
+
+BFS traversal of a graph.
+
+DFS traversal of a graph.
+
+Detect if a path exists between two nodes (BFS/DFS).
+
+🔄 Cycle Detection
+Cycle Detection in Undirected Graph (Union-Find / DFS)
+
+Cycle Detection in Directed Graph (DFS with recursion stack)
+
+📶 Connected Components
+Number of connected components in an undirected graph
+
+Check if an undirected graph is a tree
+
+Find the largest component in a graph
+
+📊 Topological Sort & DAG
+Topological Sorting of a Directed Acyclic Graph (Kahn’s Algorithm / DFS)
+
+Detect cycle in a Directed Graph using topological sort
+
+🧭 Shortest Paths
+Dijkstra's Algorithm (Single Source Shortest Path)
+
+Bellman-Ford Algorithm (Handles negative weights)
+
+Floyd-Warshall Algorithm (All Pairs Shortest Paths)
+
+🧱 Minimum Spanning Tree
+Prim's Algorithm
+
+Kruskal's Algorithm using Union-Find
+
+🌊 Flood Fill / Matrix Problems
+Number of islands (Leetcode 200)
+
+Surrounded Regions (Leetcode 130)
+
+Rotting Oranges (Leetcode 994)
+
+Flood Fill (Leetcode 733)
+
+Walls and Gates (Leetcode 286)
+
+📦 Union-Find (Disjoint Set)
+Find the redundant connection (Leetcode 684)
+
+Accounts Merge (Leetcode 721)
+
+Graph Valid Tree (Leetcode 261)
+
+⚡ Advanced / Harder Problems
+Alien Dictionary (Topological Sort in disguised form)
+
+Reconstruct Itinerary (Hierholzer's Algorithm - Leetcode 332)
+
+Course Schedule I & II (Leetcode 207, 210)
+
+Word Ladder I & II (Leetcode 127, 126)
+
+Cheapest Flights Within K Stops (Leetcode 787)
+
+Critical Connections in a Network (Tarjan’s Algorithm - Leetcode 1192)
+
+Clone Graph (Leetcode 133)
+
+🧠 Bonus Prep Tips
+Practice using both DFS and BFS approaches.
+
+Be confident with graph representation and edge cases like disconnected graphs, self-loops.
+
+Know when to use Union-Find, Topological Sort, or Dijkstra.
+
+Be comfortable with graph problems on grids (treated as graphs!).
