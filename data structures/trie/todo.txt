@@ -1,0 +1,73 @@
+Standard Problems Using Trie
+1. Insert & Search Words
+Problem: Implement a trie with methods: Insert, Search, and StartsWith.
+
+✅ You've already done this!
+
+2. Word Search in a Grid (Leetcode 212)
+Problem: Given a 2D board and a list of words, return all words that exist in the board.
+
+📌 Uses Trie + DFS (Backtracking)
+👉 Build a trie of all words, and explore the grid using DFS.
+
+3. Longest Word with All Prefixes
+Problem: Find the longest word such that all prefixes of the word are also in the dictionary.
+
+📌 Use Trie + DFS
+Track valid prefixes during traversal.
+
+4. Auto-complete System
+Problem: Given a prefix, return all valid words that start with it.
+
+📌 Use Trie Traversal from Prefix Node
+Collect all possible suffixes from the matched prefix node.
+
+5. Count Unique Substrings of a String
+Problem: Given a string, count how many unique substrings it has.
+
+📌 Insert all suffixes into a Trie
+Every node in the trie represents a unique substring. Count the nodes.
+
+6. Maximum XOR of Two Numbers (Leetcode 421)
+Problem: Given an array, return the maximum XOR of any two numbers.
+
+📌 Use Binary Trie
+Each node stores a bit (0 or 1). Traverse greedily to maximize XOR at each bit level.
+
+7. Palindrome Pairs (Leetcode 336)
+Problem: Given a list of words, find all pairs such that concatenating them forms a palindrome.
+
+📌 Use Trie (with reversed words)
+Check for palindromic prefixes/suffixes using Trie traversal.
+
+8. Search Word with Wildcards (?, .)
+Problem: Design a data structure that supports adding and searching words. . can match any character.
+
+📌 Use Trie + DFS on Search
+During Search, if . is found, try all possible children.
+
+9. Implement Magic Dictionary
+Problem: Create a dictionary that supports search(word) that returns true if modifying exactly one character makes it a word in the dictionary.
+
+📌 Trie + DFS
+Try replacing each character during search recursively.
+
+10. Sum of Prefix Scores of Strings
+Problem: For a list of words, calculate the sum of how many times each prefix appears across all words.
+
+📌 Trie with Count per Node
+Update count while inserting, and traverse per prefix during sum calculation.
+
+🧠 Bonus: Real-world Use Cases
+Autocomplete Systems (Google Search, IDEs)
+
+IP Routing (Longest Prefix Match) — Binary Trie
+
+Spell Checker
+
+T9 Predictive Text (Keypad typing)
+
+DNA Sequence Matching
+
+Firewall / DNS Matching
+
