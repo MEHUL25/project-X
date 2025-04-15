@@ -1,0 +1,109 @@
+🧠 1D Dynamic Programming Problems
+These usually involve linear sequences (like arrays or strings) and are often solved using a DP array of size n.
+
+🧩 Classic 1D DP Questions:
+Climbing Stairs
+
+Problem: Ways to reach the top of n stairs (can take 1 or 2 steps at a time).
+
+Type: Fibonacci-style.
+
+House Robber
+
+Problem: Max sum of non-adjacent elements (can't rob adjacent houses).
+
+Type: Include/Exclude.
+
+Fibonacci Numbers
+
+Good for understanding basic memoization vs tabulation.
+
+Min Cost Climbing Stairs
+
+Problem: You can start from index 0 or 1 and climb either 1 or 2 steps, paying cost[i].
+
+Maximum Sum Subarray (Kadane's Algorithm)
+
+Problem: Find max sum of any contiguous subarray.
+
+Partition Equal Subset Sum
+
+Problem: Can you partition the array into two subsets with equal sum?
+
+Type: Subset sum.
+
+Jump Game
+
+Problem: Can you reach the last index using max jumps given at each index?
+
+Word Break
+
+Problem: Can the string be segmented into dictionary words?
+
+Longest Increasing Subsequence (LIS)
+
+Problem: Find the longest strictly increasing subsequence.
+
+Coin Change (Minimum Coins)
+
+Problem: Minimum number of coins to make up a given amount.
+
+Coin Change 2 (Number of Ways)
+
+Problem: Count total combinations of coins to make a given amount.
+
+🧩 2D Dynamic Programming Problems
+These often involve grids, two sequences (like strings), or decisions with multiple dimensions.
+
+🧠 Classic 2D DP Questions:
+Longest Common Subsequence (LCS)
+
+Problem: Length of the longest subsequence common to two strings.
+
+Edit Distance
+
+Problem: Minimum number of insertions, deletions, or substitutions to convert one string to another.
+
+Longest Palindromic Subsequence
+
+Problem: Max length of subsequence that is a palindrome.
+
+Longest Palindromic Substring
+
+Problem: Longest contiguous substring that is a palindrome.
+
+0/1 Knapsack
+
+Problem: Max value you can carry in a knapsack of capacity W.
+
+Subset Sum (2D)
+
+Like the 1D version but using a 2D table: dp[i][j] = true/false.
+
+Wildcard Matching
+
+Problem: Match string with wildcard pattern (?, *).
+
+Regular Expression Matching
+
+Like wildcard matching, but stricter with . and *.
+
+Matrix Chain Multiplication
+
+Problem: Find the most efficient way to multiply a chain of matrices.
+
+Minimum Path Sum
+
+Problem: Find a path from top-left to bottom-right of a grid with min cost.
+
+Unique Paths / Unique Paths II (with obstacles)
+
+Count unique ways to reach bottom-right of a grid.
+
+Interleaving String
+
+Problem: Check if a string is an interleaving of two other strings.
+
+Palindrome Partitioning II
+
+Problem: Minimum cuts needed to partition string into palindromic substrings.
