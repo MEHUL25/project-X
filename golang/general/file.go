@@ -3,7 +3,6 @@ package general
 import (
 	"fmt"
 	"io"
-	"io/ioutil"
 	"log"
 	"os"
 )
@@ -22,7 +21,7 @@ func fileOperationsDemo() {
 	fmt.Fprintln(file, "Another line in the file.")
 
 	// Read entire file content
-	data, err := ioutil.ReadFile(filename)
+	data, err := io.ReadAll(file)
 	if err != nil {
 		log.Fatalf("Failed to read file: %v", err)
 	}

@@ -38,6 +38,11 @@ func typeConversionExamples() {
 		fmt.Println("String to Float:", parsedFloat)
 	}
 
+	// Example 5.1: Float to String
+	f := 3.14159
+	s := strconv.FormatFloat(f, 'f', 2, 64) // 'f' format, 2 decimal places, 64-bit float
+	fmt.Println(s)                          // Output: "3.14"
+
 	// Example 6: Boolean to String
 	boolValue := true
 	strBool := strconv.FormatBool(boolValue)

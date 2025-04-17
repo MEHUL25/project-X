@@ -32,8 +32,10 @@ func remoteAPICall() {
 	fmt.Println("Response:")
 	fmt.Println(string(body))
 
+	decoder := json.NewDecoder(resp.Body)
+
 	var apiInfo GitHubAPIInfo
-	if err := json.NewDecoder(resp.Body).Decode(&apiInfo); err != nil {
+	if err := decoder.Decode(&apiInfo); err != nil {
 		log.Fatalf("Failed to decode JSON: %v", err)
 	}
 
