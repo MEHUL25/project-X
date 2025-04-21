@@ -6,14 +6,14 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
+type NodePath struct {
+	Node *TreeNode
+	Path []int
+}
+
 func rootToNodePathIterative(root *TreeNode, target int) []int {
 	if root == nil {
 		return []int{}
-	}
-
-	type NodePath struct {
-		Node *TreeNode
-		Path []int
 	}
 
 	stack := []NodePath{{Node: root, Path: []int{root.Val}}}
