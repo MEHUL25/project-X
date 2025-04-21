@@ -1,0 +1,3 @@
+🧩 Copy List with Random Pointer	Use a hashmap or clever interleaving technique.
+🚀 LRU Cache (Using Linked List + HashMap)	Design a least recently used cache with O(1) operations.
+🔁 Flatten a Multilevel Doubly Linked List	Recursively flatten nested levels.
