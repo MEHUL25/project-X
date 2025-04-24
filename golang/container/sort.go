@@ -46,6 +46,25 @@ func sortExample1() {
 // /Method 2
 func sortExample2() {
 
+	// Slice of ints
+	ints := []int{5, 2, 9, 1, 5, 6}
+	sort.Ints(ints)
+	fmt.Println("Sorted ints:", ints)
+
+	// Slice of float64s
+	floats := []float64{3.14, 2.71, 1.41, 1.73}
+	sort.Float64s(floats)
+	fmt.Println("Sorted floats:", floats)
+
+	// Slice of strings
+	strings := []string{"banana", "apple", "cherry"}
+	sort.Strings(strings)
+	fmt.Println("Sorted strings:", strings)
+
+	sort.Sort(sort.Reverse(sort.IntSlice(ints)))
+	sort.Sort(sort.Reverse(sort.Float64Slice(floats)))
+	sort.Sort(sort.Reverse(sort.StringSlice(strings)))
+
 	people := []Person{
 		{"Alice", 30},
 		{"Bob", 25},

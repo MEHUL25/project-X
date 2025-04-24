@@ -3,13 +3,11 @@ These usually involve linear sequences (like arrays or strings) and are often so
 
 🧩 Classic 1D DP Questions:
 Climbing Stairs
-
 Problem: Ways to reach the top of n stairs (can take 1 or 2 steps at a time).
 
 Type: Fibonacci-style.
 
 House Robber
-
 Problem: Max sum of non-adjacent elements (can't rob adjacent houses).
 
 Type: Include/Exclude.
@@ -19,37 +17,29 @@ Fibonacci Numbers
 Good for understanding basic memoization vs tabulation.
 
 Min Cost Climbing Stairs
-
 Problem: You can start from index 0 or 1 and climb either 1 or 2 steps, paying cost[i].
 
 Maximum Sum Subarray (Kadane's Algorithm)
-
 Problem: Find max sum of any contiguous subarray.
 
 Partition Equal Subset Sum
-
 Problem: Can you partition the array into two subsets with equal sum?
 
 Type: Subset sum.
 
 Jump Game
-
 Problem: Can you reach the last index using max jumps given at each index?
 
 Word Break
-
 Problem: Can the string be segmented into dictionary words?
 
 Longest Increasing Subsequence (LIS)
-
 Problem: Find the longest strictly increasing subsequence.
 
 Coin Change (Minimum Coins)
-
 Problem: Minimum number of coins to make up a given amount.
 
 Coin Change 2 (Number of Ways)
-
 Problem: Count total combinations of coins to make a given amount.
 
 🧩 2D Dynamic Programming Problems
@@ -57,23 +47,18 @@ These often involve grids, two sequences (like strings), or decisions with multi
 
 🧠 Classic 2D DP Questions:
 Longest Common Subsequence (LCS)
-
 Problem: Length of the longest subsequence common to two strings.
 
 Edit Distance
-
 Problem: Minimum number of insertions, deletions, or substitutions to convert one string to another.
 
 Longest Palindromic Subsequence
-
 Problem: Max length of subsequence that is a palindrome.
 
 Longest Palindromic Substring
-
 Problem: Longest contiguous substring that is a palindrome.
 
 0/1 Knapsack
-
 Problem: Max value you can carry in a knapsack of capacity W.
 
 Subset Sum (2D)
@@ -81,7 +66,6 @@ Subset Sum (2D)
 Like the 1D version but using a 2D table: dp[i][j] = true/false.
 
 Wildcard Matching
-
 Problem: Match string with wildcard pattern (?, *).
 
 Regular Expression Matching
@@ -89,11 +73,9 @@ Regular Expression Matching
 Like wildcard matching, but stricter with . and *.
 
 Matrix Chain Multiplication
-
 Problem: Find the most efficient way to multiply a chain of matrices.
 
 Minimum Path Sum
-
 Problem: Find a path from top-left to bottom-right of a grid with min cost.
 
 Unique Paths / Unique Paths II (with obstacles)
@@ -101,9 +83,80 @@ Unique Paths / Unique Paths II (with obstacles)
 Count unique ways to reach bottom-right of a grid.
 
 Interleaving String
-
 Problem: Check if a string is an interleaving of two other strings.
 
 Palindrome Partitioning II
-
 Problem: Minimum cuts needed to partition string into palindromic substrings.
+
+
+----------------------------------------------------------------------------------------------------------
+
+Climbing Stars
+Frog Jump(DP-3)
+Frog Jump with k distances(DP-4)
+Maximum sum of non-adjacent elements (DP 5)
+House Robber (DP 6)
+
+
+Ninja's Training (DP 7)
+Grid Unique Paths : DP on Grids (DP8)
+Grid Unique Paths 2 (DP 9)
+Minimum path sum in Grid (DP 10)
+Minimum path sum in Triangular Grid (DP 11)
+Minimum/Maximum Falling Path Sum (DP-12)
+3-d DP : Ninja and his friends (DP-13)
+
+
+Subset sum equal to target (DP- 14)
+Unbounded Knapsack (DP - 23)
+Rod Cutting Problem | (DP - 24)
+Partition Equal Subset Sum (DP- 15)
+Partition Set Into 2 Subsets With Min Absolute Sum Diff (DP- 16)
+Count Subsets with Sum K (DP - 17)
+Count Partitions with Given Difference (DP - 18)
+Assign Cookies
+Minimum Coins (DP - 20)
+Target Sum (DP - 21)
+Coin Change 2 (DP - 22)
+
+Longest Common Subsequence | (DP - 25)
+Wildcard Matching | (DP-34)
+Print Longest Common Subsequence | (DP - 26)
+Longest Common Substring | (DP - 27)
+Longest Palindromic Subsequence | (DP-28)
+Minimum insertions to make string palindrome | DP-29
+Minimum Insertions/Deletions to Convert String | (DP- 30)
+Shortest Common Supersequence | (DP - 31)
+Distinct Subsequences| (DP-32)
+Edit Distance | (DP-33)
+
+
+Best Time to Buy and Sell Stock |(DP-35)
+Buy and Sell Stock - II|(DP-36)
+Buy and Sell Stocks III|(DP-37)
+Buy and Stock Sell IV |(DP-38)
+Buy and Sell Stocks With Cooldown|(DP-39)
+Buy and Sell Stocks With Transaction Fee|(DP-40)
+
+
+Longest Increasing Subsequence |(DP-41)
+Printing Longest Increasing Subsequence|(DP-42)
+Longest Increasing Subsequence |(DP-43)
+Largest Divisible Subset|(DP-44)
+Longest String Chain|(DP-45)
+Longest Bitonic Subsequence |(DP-46)
+Number of Longest Increasing Subsequences|(DP-47)
+
+
+Matrix Chain Multiplication|(DP-48)
+Matrix Chain Multiplication | Bottom-Up|(DP-49)
+Minimum Cost to Cut the Stick|(DP-50)
+Burst Balloons|(DP-51)
+Evaluate Boolean Expression to True|(DP-52)
+Palindrome Partitioning - II|(DP-53)
+Partition Array for Maximum Sum|(DP-54)
+
+Maximum Rectangle Area with all 1's|(DP-55)
+Count Square Submatrices with All Ones|(DP-56)
+
+

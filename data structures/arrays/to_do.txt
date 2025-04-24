@@ -1,0 +1,35 @@
+
+Maximum Consecutive Ones
+Move Zeros to end
+finding missing number from sequence
+Stock Buy and Sell
+
+Rearrange the array in alternating positive and negative items
+Find the duplicate in an array of N+1 integers
+Kadane's Algorithm, maximum subarray sum
+	
+Print subarray with maximum subarray sum (extended version of above problem)
+Grid Unique Paths
+Sort an array of 0's, 1's and 2's
+
+Majority Element (>n/2 times)
+Next Permutation
+Set Matrix Zeros
+Majority Element (n/3 times)
+Merge Overlapping Subintervals
+Merge two sorted arrays without extra space
+Longest Consecutive Sequence in an Array
+Longest subarray with given sum K(positives)
+Longest subarray with sum K (Positives + Negatives)
+Count subarrays with given sum
+Count number of subarrays with given xor K
+
+
+
+3-Sum Problem
+4-Sum Problem
+Find the repeating and missing number
+Maximum Product Subarray
+Merge Sort
+Count Inversions
+Reverse Pairs
