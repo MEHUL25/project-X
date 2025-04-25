@@ -96,6 +96,7 @@ Frog Jump(DP-3)
 Frog Jump with k distances(DP-4)
 Maximum sum of non-adjacent elements (DP 5)
 House Robber (DP 6)
+Decode Ways
 
 
 Ninja's Training (DP 7)
