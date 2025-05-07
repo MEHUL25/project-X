@@ -1,0 +1,16 @@
+Go fundamentals - Array, map, 2d , min heap
+Search - linear, binary upper /lower bound
+Sort - insertion, selection, bubble, quick, merge
+
+prefix sum
+sliding window
+
+Array
+bit manipulation
+
+LL
+Queue
+stack
+Trie
+Trees
+Graph
